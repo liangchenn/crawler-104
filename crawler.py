@@ -45,7 +45,7 @@ class JobCrawler(object):
     def _get_area_mapping(self):
         '''obtain area mapping from preprocessing work.'''
 
-        with open(self.MAP_PATH, 'r') as fin:
+        with open(self.MAP_PATH, 'r', encoding='utf-8') as fin:
             self.mapping = json.load(fin)
 
         return 
