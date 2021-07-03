@@ -2,3 +2,5 @@ crawler/
 __pycache__/
 .DS_Store
 .ipynb_checkpoints/
+test*
+cron*
